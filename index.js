@@ -110,6 +110,136 @@ let razas= [//descripcion de los humanos!
         cancelButtonAriaLabel:''
         }],
     },
+    
+    // aca esta la descripcion de los muertos vivientes!
+    { id:"historia_muertosvivientes",
+    title: '<div><h1>Los muertos vivientes, gobernados por el rey absoluto el rey lich</h1></div><br><img src="./cuidades/corona de hielo.png" alt="">',
+    icon: '',
+    html:
+      'El rey lich fue un producto de uno de los lideres de los demonios llamado kiljaeden, su proposito era traer a la legion de Archimonde',
+    showCloseButton: true,
+    showCancelButton: false,
+    focusConfirm: false,
+    confirmButtonText:'OK!',
+    confirmButtonAriaLabel: 'cerrar, Ok!',
+    cancelButtonText:'',
+    cancelButtonAriaLabel:'',
+    personajes: [
+      { 
+        id: "personajemuertoviviente",
+        title: '<div class="titulo"><strong>Arthas, el nuevo rey lich</strong></div><br><img src="./personajes/Arthas.png" alt="">',
+        icon: '',
+        html:
+          'Arthas convertido en caballero de la muerte del rey lich, sirvio al rey lich en sus ordenes, siguio las ordenes de Tichondrius, que era uno de los carceleros del rey lich, hasta que tuvo que revivir a su 1er gran enemigo, Kelthuzad, el cual este le revelaria los planes del rey lich para derrotar a Archimonde y a la legion, luego de esto Arthas tuvo que enfrentar a grandes enemigo y exterminar a la poblacion bajo el nombre de "Rey Arthas", luego el rey caido decidio poseer un poder mayor, tomando corona de hielo, asesinando a Nerzhul y tomando sus poderes',
+        showCloseButton: true,
+        showCancelButton: false,
+        focusConfirm: false,
+        confirmButtonText:'OK!',
+        confirmButtonAriaLabel: 'cerrar, Ok!',
+        cancelButtonText:'',
+        cancelButtonAriaLabel:''
+      },
+
+    { id:"personaje_reylich",
+      title: '<div class="titulo"><strong>El antiguo rey lich</strong></div><br><img src="./personajes/El antiguo rey lich.png" alt="">',
+      icon: '',
+      html:
+        'Fue un orco llamado Nerzhul que buscaba poder, un dia un señor demonio llamado Kiljaeden lo convencio de darle mucho poder a cambio de un sacrificio, este acepto. luego del sacrificio quedo una armadura con conciencia propia en un un reino congelado llamado corona de hielo, el rey lich luego de mucho tiempo decidio revelarce ante el señor demonio, por medio de su ejercito de muertos vivientes al servicio de su jefe Archimonde y su campeon, Arthas.',
+      showCloseButton: true,
+      showCancelButton: false,
+      focusConfirm: false,
+      confirmButtonText:'OK!',
+      confirmButtonAriaLabel: 'cerrar, Ok!',
+      cancelButtonText:'',
+      cancelButtonAriaLabel:''
+      },
+
+      { id:"personaje_kelthuzad",
+        title: '<div class="titulo"><strong>La mano derecha de los 2 reyes muertos, Kelthuzad</strong></div><br><img src="./personajes/Keltuzad.png" alt="">',
+        icon: '',
+        html:
+        'Este fue un nigromante muy poderoso, mandado por el rey lich para tentar a Arthas a que odie a Malganis y quiera asesinarlo a cualquier costa para acabar con la amenaza con de los muertos vivientes, su tarea la cumplio a la perfeccion, el antiguo rey lich le prometio que volveria a la vida mas poderoso que nunca gracias a Arthas y asi fue, para poder revivir precencio como Arthas, caballero de la muerte, masacro y asesino la capital de los elfos Quelthalas, sacandoles la inmortalidad y reduciendo a cenizas su gran reino, degradandolos a los elfos de sangre, luego de revivir, trajo a Archimonde al planeta, a costa de vidas de innumerables orcos y humanos, luego de esto ejecuto su parte del plan para desterrar a Archimonde y luego protegio con su alma al caballero de la muerte y luego al nuevo rey lich Arthas',
+        showCloseButton: true,
+        showCancelButton: false,
+        focusConfirm: false,
+        confirmButtonText:'OK!',
+        confirmButtonAriaLabel: 'cerrar, Ok!',
+        cancelButtonText:'',
+        cancelButtonAriaLabel:''
+        },
+
+        { id:"personaje_malganis",
+        title: '<div class="titulo"><strong>El señor del terror Malganis</strong></div><br><img src="./personajes/Malganis.png" alt="">',
+        icon: '',
+        html:
+        'Fue un señor del terror que era carcelero del rey lich, tuvo la tarea de pelear contra Arthas para que fuese el campeon del rey lich, fue engañado por este, cuando llego el momento donde el paladin pasara a ser caballero de la muerte le dio un pregunta al principe que estaba cayendo, sobre que le decia la espada que empuñaba, la Frostmourne, y el principe maldito le contesto hora de cobrar mi esperada venganza, Malganis se sorprendio al ver como el principe le clavo la espada y se dio cuenta de que el rey lich lo traiciono a el y a la legion, pero ya era tarde.',
+        showCloseButton: true,
+        showCancelButton: false,
+        focusConfirm: false,
+        confirmButtonText:'OK!',
+        confirmButtonAriaLabel: 'cerrar, Ok!',
+        cancelButtonText:'',
+        cancelButtonAriaLabel:''
+        }],
+    },
+
+    // aca esta la descripcion de los elfos nocturnos!
+    { id:"historia_elfos",
+    title: '<div><h1>El arbol del mundo, cuidada por los espiritus del bosque, los elfos y los druidas</h1></div><br><img src="./cuidades/nordrassil.png" alt="">',
+    icon: '',
+    html:
+    'El arbol del mundo, llamado Nordrassil es un recurso usado por los elfos para conseguir y mantener la inmortalidad, cuando la legion volvio para destrir el planeta y con ella, el arbol, los elfos devolvieron su inmortalidad con tal de derrotar a Archimonde, montando una trampa...',
+    showCloseButton: true,
+    showCancelButton: false,
+    focusConfirm: false,
+    confirmButtonText:'OK!',
+    confirmButtonAriaLabel: 'cerrar, Ok!',
+    cancelButtonText:'',
+    cancelButtonAriaLabel:'',
+    personajes: [
+      { 
+        id: "personajeelfosnocturnos",
+        title: '<div class="titulo"><strong>La sacerdotisa de la luna, Tyrande whisperwind</strong></div><br><img src="./personajes/Tyrande.jpg" alt="">',
+        icon: '',
+        html:
+        'Es una sacerdotisa que adora a Elune, ella y su raza amaban los arboles, ella vio con sus ojos la alianza de los orcos y los humanos (las fuerzas de Jaina y las fuerzas de Thrall) y los odiaba, dado que ellos no respetan la naturaleza, para hacer y crear sus fortalezas, al derrotar uno de sus asentamientos se dio cuenta de algo horrible, la legion habia vuelto, los elfos hace 10000 años habian derrotado a la legion, pero perdieron mucho los elfos, ahora, sin cenarius que fue asesinado por los orcos y los druidas descansando en el sueño esmeralda los elfos eran muy debiles contra la legion, tuvieron que reagruparse y marchar para despertar a los druidas y al 1er archidruida y su amado Malfurion, luego lucharon contra la corrupcion de la legion y los muertos vivientes, luego de muchas batallas y traiciones se aliaron con los humanos y los orcos para derrotar a Archimonde, creando una trampa, Archimonde queria destruir el corazon del mundo, que era un arbol enorme, entonces tendieron una trampa ahi y aguantaron, el plan salio bien, y vencieron a Archimonde y a la legion...',
+        showCloseButton: true,
+        showCancelButton: false,
+        focusConfirm: false,
+        confirmButtonText:'OK!',
+        confirmButtonAriaLabel: 'cerrar, Ok!',
+        cancelButtonText:'',
+        cancelButtonAriaLabel:''
+      },
+
+    { id:"personaje_maiev",
+    title: '<div class="titulo"><strong>La carcelera, Maiev Shadowsong</strong></div><br><img src="./personajes/maiev.jfif" alt="">',
+    icon: '',
+      html:
+      'Durante la vuelta de la legion Tyrande decidio liberar de su pricion a Ilidan, alguien muy ambicioso hambriento de poder, al fugarse, Maiev es una carcelera elfo que se dedico dia y noche en capturar a Ilidan para devolverlo a su pricion o ejecutarlo, llego un punto que Illidan se allio con los naga (una aparente mutacion por una maldicion de los elfos nocturnos) y supero su poder militar, asi que pidio ayuda a Malfurion y a Tyrande, luego ella abandono a la sacerdotiza para darle motivos para capturar a Ilidan pero Malfurion se dio cuenta y se allio con Ilidan para salvar a Tyrande, luego su presa se fugo a otro planeta y ella fue a buscarlo, su mision fracaso.',
+      showCloseButton: true,
+      showCancelButton: false,
+      focusConfirm: false,
+      confirmButtonText:'OK!',
+      confirmButtonAriaLabel: 'cerrar, Ok!',
+      cancelButtonText:'',
+      cancelButtonAriaLabel:''
+      },
+
+      { id:"personaje_hermanos",
+      title: '<div class="titulo"><strong>Los hermanos Stormrage</strong></div><br><img src="./personajes/Malfurion e ilidan.jpg" alt="">',
+      icon: '',
+        html:
+        'Los hermanos, Illidan y Malfurion, siempre estuvieron peleados, Ilidan siempre busco poder, mientras que, Malfurion buscaba la paz, en la busqueda constante de poder de Illidan logro que lo apresaran para siempre, dado que rompio las reglas y consiguio poder a costa de sus ojos, entre otras cosas, despues de 10000 años, Tyrande libero a Illidan para poder sumarse a la pelea, Malfurion estuvo en desacuerdo de esto pero no freno Tyrande por la fuerza, a si que enprendio su viaje para despertar a los poderosos druidas de su sueño esmeralda y pelear contra las fuerzas de Archimonde, Illidan una vez libre se encontro con Arthas, este le dijo que si queria conseguir poder y matar a la mano derecha de Archimonde (Tichondrius) tendria que destrir un artefacto llamado "La calavera de Guldan", Illidan en vez de destruir el artefacto absorbio sus poderes y con ellos mato a Tichondrius, y luego de eso fue desterrado y amenazado de muerte por Malfurion, dado de que su hermano ya no era un elfo nocturno, era un hibrido con demonio y elfo, ambos hicieron un papel enorme en la derrota de Archimonde y su legion de demonios y muertos vivientes',
+        showCloseButton: true,
+        showCancelButton: false,
+        focusConfirm: false,
+        confirmButtonText:'OK!',
+        confirmButtonAriaLabel: 'cerrar, Ok!',
+        cancelButtonText:'',
+        cancelButtonAriaLabel:''
+        }],
+    },
 ]
 
 
@@ -127,97 +257,6 @@ razas.forEach(function(raza){
 })
 
 
-  // aca esta la descripcion de los muertos vivientes!
-
-  let historia_muertosvivientes=document.getElementById ("historia_muertosvivientes")
-  historia_muertosvivientes.addEventListener("click", mostrarHistoria3);
-function mostrarHistoria3() {
-    Swal.fire({
-    title: '<div><h1>Los muertos vivientes, gobernados por el rey absoluto el rey lich</h1></div><br><img src="./cuidades/corona de hielo.png" alt="">',
-    icon: '',
-    html:
-      'El rey lich fue un producto de uno de los lideres de los demonios llamado kiljaeden, su proposito era traer a la legion de Archimonde',
-    showCloseButton: true,
-    showCancelButton: false,
-    focusConfirm: false,
-    confirmButtonText:'OK!',
-    confirmButtonAriaLabel: 'cerrar, Ok!',
-    cancelButtonText:'',
-    cancelButtonAriaLabel:''
-    })
-  }
-
-// aca esta los personajes muertos vivientes!
-
-  let personajemuertoviviente= document.getElementById ("personajemuertoviviente")
-  personajemuertoviviente.addEventListener("click", function(){
-    Swal.fire({
-        title: '<div class="titulo"><strong>Arthas, el nuevo rey lich</strong></div><br><img src="./personajes/Arthas.png" alt="">',
-        icon: '',
-        html:
-          'Arthas convertido en caballero de la muerte del rey lich, sirvio al rey lich en sus ordenes, siguio las ordenes de Tichondrius, que era uno de los carceleros del rey lich, hasta que tuvo que revivir a su 1er gran enemigo, Kelthuzad, el cual este le revelaria los planes del rey lich para derrotar a Archimonde y a la legion, luego de esto Arthas tuvo que enfrentar a grandes enemigo y exterminar a la poblacion bajo el nombre de "Rey Arthas", luego el rey caido decidio poseer un poder mayor, tomando corona de hielo, asesinando a Nerzhul y tomando sus poderes',
-        showCloseButton: true,
-        showCancelButton: false,
-        focusConfirm: false,
-        confirmButtonText:'OK!',
-        confirmButtonAriaLabel: 'cerrar, Ok!',
-        cancelButtonText:'',
-        cancelButtonAriaLabel:''
-        })
-  });
-
-  let personaje_reylich= document.getElementById ("personaje_reylich")
-  personaje_reylich.addEventListener("click", function(){
-    Swal.fire({
-        title: '<div class="titulo"><strong>El antiguo rey lich</strong></div><br><img src="./personajes/El antiguo rey lich.png" alt="">',
-        icon: '',
-        html:
-          'Fue un orco llamado Nerzhul que buscaba poder, un dia un señor demonio llamado Kiljaeden lo convencio de darle mucho poder a cambio de un sacrificio, este acepto. luego del sacrificio quedo una armadura con conciencia propia en un un reino congelado llamado corona de hielo, el rey lich luego de mucho tiempo decidio revelarce ante el señor demonio, por medio de su ejercito de muertos vivientes al servicio de su jefe Archimonde y su campeon, Arthas.',
-        showCloseButton: true,
-        showCancelButton: false,
-        focusConfirm: false,
-        confirmButtonText:'OK!',
-        confirmButtonAriaLabel: 'cerrar, Ok!',
-        cancelButtonText:'',
-        cancelButtonAriaLabel:''
-        })
-  });
-
-  let personaje_kelthuzad= document.getElementById ("personaje_kelthuzad")
-  personaje_kelthuzad.addEventListener("click", function(){
-    Swal.fire({
-        title: '<div class="titulo"><strong>La mano derecha de los 2 reyes muertos, Kelthuzad</strong></div><br><img src="./personajes/Keltuzad.png" alt="">',
-        icon: '',
-        html:
-          'Este fue un nigromante muy poderoso, mandado por el rey lich para tentar a Arthas a que odie a Malganis y quiera asesinarlo a cualquier costa para acabar con la amenaza con de los muertos vivientes, su tarea la cumplio a la perfeccion, el antiguo rey lich le prometio que volveria a la vida mas poderoso que nunca gracias a Arthas y asi fue, para poder revivir precencio como Arthas, caballero de la muerte, masacro y asesino la capital de los elfos Quelthalas, sacandoles la inmortalidad y reduciendo a cenizas su gran reino, degradandolos a los elfos de sangre, luego de revivir, trajo a Archimonde al planeta, a costa de vidas de innumerables orcos y humanos, luego de esto ejecuto su parte del plan para desterrar a Archimonde y luego protegio con su alma al caballero de la muerte y luego al nuevo rey lich Arthas',
-        showCloseButton: true,
-        showCancelButton: false,
-        focusConfirm: false,
-        confirmButtonText:'OK!',
-        confirmButtonAriaLabel: 'cerrar, Ok!',
-        cancelButtonText:'',
-        cancelButtonAriaLabel:''
-        })
-  });
-
-  let personaje_malganis= document.getElementById ("personaje_malganis")
-  personaje_malganis.addEventListener("click", function(){
-    Swal.fire({
-        title: '<div class="titulo"><strong>El señor del terror Malganis</strong></div><br><img src="./personajes/Malganis.png" alt="">',
-        icon: '',
-        html:
-          'Fue un señor del terror que era carcelero del rey lich, tuvo la tarea de pelear contra Arthas para que fuese el campeon del rey lich, fue engañado por este, cuando llego el momento donde el paladin pasara a ser caballero de la muerte le dio un pregunta al principe que estaba cayendo, sobre que le decia la espada que empuñaba, la Frostmourne, y el principe maldito le contesto hora de cobrar mi esperada venganza, Malganis se sorprendio al ver como el principe le clavo la espada y se dio cuenta de que el rey lich lo traiciono a el y a la legion, pero ya era tarde.',
-        showCloseButton: true,
-        showCancelButton: false,
-        focusConfirm: false,
-        confirmButtonText:'OK!',
-        confirmButtonAriaLabel: 'cerrar, Ok!',
-        cancelButtonText:'',
-        cancelButtonAriaLabel:''
-        })
-  });
-
-// aca esta la descripcion de los elfos nocturnos!
 
   let historia_elfos=document.getElementById ("historia_elfos")
   historia_elfos.addEventListener("click", mostrarHistoria4);
@@ -237,66 +276,7 @@ function mostrarHistoria3() {
       })
   }
 
-  // aca esta la descripcion de los personajes de los elfos nocturnos!
-
-  let personajeelfosnocturnos= document.getElementById ("personajeelfosnocturnos")
-  personajeelfosnocturnos.addEventListener("click", function(){
-    Swal.fire({
-        title: '<div class="titulo"><strong>La sacerdotisa de la luna, Tyrande whisperwind</strong></div><br><img src="./personajes/Tyrande.jpg" alt="">',
-        icon: '',
-        html:
-          'Es una sacerdotisa que adora a Elune, ella y su raza amaban los arboles, ella vio con sus ojos la alianza de los orcos y los humanos (las fuerzas de Jaina y las fuerzas de Thrall) y los odiaba, dado que ellos no respetan la naturaleza, para hacer y crear sus fortalezas, al derrotar uno de sus asentamientos se dio cuenta de algo horrible, la legion habia vuelto, los elfos hace 10000 años habian derrotado a la legion, pero perdieron mucho los elfos, ahora, sin cenarius que fue asesinado por los orcos y los druidas descansando en el sueño esmeralda los elfos eran muy debiles contra la legion, tuvieron que reagruparse y marchar para despertar a los druidas y al 1er archidruida y su amado Malfurion, luego lucharon contra la corrupcion de la legion y los muertos vivientes, luego de muchas batallas y traiciones se aliaron con los humanos y los orcos para derrotar a Archimonde, creando una trampa, Archimonde queria destruir el corazon del mundo, que era un arbol enorme, entonces tendieron una trampa ahi y aguantaron, el plan salio bien, y vencieron a Archimonde y a la legion...',
-        showCloseButton: true,
-        showCancelButton: false,
-        focusConfirm: false,
-        confirmButtonText:'OK!',
-        confirmButtonAriaLabel: 'cerrar, Ok!',
-        cancelButtonText:'',
-        cancelButtonAriaLabel:''
-        })
-  });
-
-  let personaje_maiev= document.getElementById ("personaje_maiev")
-  console.log(personaje_maiev)
-  personaje_maiev.addEventListener("click", function(){
-    Swal.fire({
-        title: '<div class="titulo"><strong>La carcelera, Maiev Shadowsong</strong></div><br><img src="./personajes/maiev.jfif" alt="">',
-        icon: '',
-        html:
-          'Durante la vuelta de la legion Tyrande decidio liberar de su pricion a Ilidan, alguien muy ambicioso hambriento de poder, al fugarse, Maiev es una carcelera elfo que se dedico dia y noche en capturar a Ilidan para devolverlo a su pricion o ejecutarlo, llego un punto que Illidan se allio con los naga (una aparente mutacion por una maldicion de los elfos nocturnos) y supero su poder militar, asi que pidio ayuda a Malfurion y a Tyrande, luego ella abandono a la sacerdotiza para darle motivos para capturar a Ilidan pero Malfurion se dio cuenta y se allio con Ilidan para salvar a Tyrande, luego su presa se fugo a otro planeta y ella fue a buscarlo, su mision fracaso.',
-        showCloseButton: true,
-        showCancelButton: false,
-        focusConfirm: false,
-        confirmButtonText:'OK!',
-        confirmButtonAriaLabel: 'cerrar, Ok!',
-        cancelButtonText:'',
-        cancelButtonAriaLabel:''
-        })
-  });
-
-  let personaje_hermanos= document.getElementById ("personaje_hermanos")
-  personaje_hermanos.addEventListener("click", function(){
-    Swal.fire({
-        title: '<div class="titulo"><strong>Los hermanos Stormrage</strong></div><br><img src="./personajes/Malfurion e ilidan.jpg" alt="">',
-        icon: '',
-        html:
-          'Los hermanos, Illidan y Malfurion, siempre estuvieron peleados, Ilidan siempre busco poder, mientras que, Malfurion buscaba la paz, en la busqueda constante de poder de Illidan logro que lo apresaran para siempre, dado que rompio las reglas y consiguio poder a costa de sus ojos, entre otras cosas, despues de 10000 años, Tyrande libero a Illidan para poder sumarse a la pelea, Malfurion estuvo en desacuerdo de esto pero no freno Tyrande por la fuerza, a si que enprendio su viaje para despertar a los poderosos druidas de su sueño esmeralda y pelear contra las fuerzas de Archimonde, Illidan una vez libre se encontro con Arthas, este le dijo que si queria conseguir poder y matar a la mano derecha de Archimonde (Tichondrius) tendria que destrir un artefacto llamado "La calavera de Guldan", Illidan en vez de destruir el artefacto absorbio sus poderes y con ellos mato a Tichondrius, y luego de eso fue desterrado y amenazado de muerte por Malfurion, dado de que su hermano ya no era un elfo nocturno, era un hibrido con demonio y elfo, ambos hicieron un papel enorme en la derrota de Archimonde y su legion de demonios y muertos vivientes',
-        showCloseButton: true,
-        showCancelButton: false,
-        focusConfirm: false,
-        confirmButtonText:'OK!',
-        confirmButtonAriaLabel: 'cerrar, Ok!',
-        cancelButtonText:'',
-        cancelButtonAriaLabel:''
-        })
-  });
-
-  //Personajes extras
-
-
-
   //boton del modo oscuro
-
 const modooscuro= document.getElementById('modooscuro')
 modooscuro.addEventListener('click', ()=> {
   document.body.classList.toggle('temaoscuro')
