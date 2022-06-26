@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/vendors/scrolloverflow.min.js" integrity="sha512-pYyQWhzi2lV+RM4GmaUA56VPL48oLVvsHmP9tuQ8MaZMDHomVEDjXXnfSVKXayy+wLclKPte0KbsuVoFImtE7w==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fan page simple de Warcraft 3</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon">
+    <link rel="stylesheet" href="./components/mediaQuery.css">
+    <link rel="stylesheet" href="./botones.css">
+</head>
+
+<body id="home">
+    <!-- START HEADER -->
+    <header>
+        <nav class="navbar">
+            <ul class="navbar-group">
+                <li class="navbar-link"><a class="animLine navbar-link-a" href="#home">Inicio</a></li>
+                <li class="navbar-link"><a class="animLine navbar-link-a" href="#game">Razas</a></li>
+                <li class="navbar-link"><a class="animLine navbar-link-a" href="#personajes">Personajes</a></li>
+                <li class="navbar-link"><a class="animLine navbar-link-a" href="#contact">Contacto</a></li>
+                <a class="botonCss" class="temaoscuro" id="modooscuro" href="#" style="--clr:#1e9bff"><span>Tema oscuro!</span><i></i></a>
+            </ul>
+        </nav>
+    </header>
+    <!-- END HEADER -->
+    
+    <!-- START MAIN -->
+    <main>
+       <section class="mainContent-sec">
+            <div class="row justify-content-spacearound">
+                <div class="col-sm-12">
+                    <div class="videoContainer">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jUmvrk0yVxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="videoText">
+                            <h1 class="mainContent-title">
+                                Bienvenido a "Historias de Warcraft 3"
+                            </h1>
+                            <div class="mainContent-exp">
+                                <p>Soy Mariano - </p>
+                                <span class="auto-input"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- START KNOWLEDGE -->
+        <section class="knowledge-sec" id="game">
+            <h2 class="knowledge-title">Razas jugables</h2>
+            <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+
+<div text-align="" class="contener_general">
+  <div class="carreaux_presentation_light" style="background-image:url('./razas/Alianza.jfif');">
+    <div class="shadow_swhow_mini">
+        <div class="deroul_titre" id="historia_humanos"> Conocer historia</div>
+        <div class="deroul_soustitre" id="personaje">Personaje emblematico</div>
+        <div class="deroul_soustitre2" id="personaje_jaina"> Conocer historia de Jaina</div>
+        <div class="deroul_soustitre3" id="personaje_muradin"> Conocer historia de Muradin</div>
+    </div>
+  </div>
+
+  
+    <div class="carreaux_presentation_light" style="background-image:url('./razas/La\ horda.jfif');">
+      <div class="shadow_swhow_mini">
+          <div class="deroul_titre" id="historia_orcos"> Conocer historia</div>
+          <div class="deroul_soustitre" id="personajeorco">Personaje emblematico</div>
+          <div class="deroul_soustitre2" id="personaje_cairne"> Conocer historia de Cairne</div>
+          <div class="deroul_soustitre3" id="personaje_grom"> Conocer historia de Grom</div>
+      </div>
+    </div>
+  
+    <div class="carreaux_presentation_light" style="background-image:url('./razas/Muertos\ vivientes.jfif');">
+      <div class="shadow_swhow_mini">
+          <div class="deroul_titre" id="historia_muertosvivientes"> Conocer historia</div>
+          <div class="deroul_soustitre" id="personajemuertoviviente">Personaje emblematico</div>
+          <div class="deroul_soustitre2" id="personaje_reylich"> Conocer historia del rey lich</div>
+          <div class="deroul_soustitre3" id="personaje_kelthuzad"> Conocer historia de Kelthuzad</div>
+          <div class="deroul_soustitre4" id="personaje_malganis"> Conocer historia de Malganis</div>
+      </div>
+    </div>
+    <div class="carreaux_presentation_light" style="background-image:url('./razas/Elfos.jfif');">
+      <div class="shadow_swhow_mini">
+          <div class="deroul_titre" id="historia_elfos"> Conocer historia</div>
+          <div class="deroul_soustitre" id="personajeelfosnocturnos">Personaje emblematico</div>
+          <div class="deroul_soustitre2" id="personaje_maiev"> Conocer historia de Maiev</div>
+          <div class="deroul_soustitre3" id="personaje_hermanos"> Conocer historia de los hermanos Stomrage</div>
+      </div>
+    </div>
+</div>
+            </div>
+        </section>
+        <section class="about-sec" id="personajes">
+            <div class="about-container">
+                <h3 class="about-title">Personajes!</h3>
+                <hr class="line2">
+                <ul class="listadepersonajes">
+                    <li class="about-things">En Warcraft 3 existen un monton de personajes que forman parte de la historia estando fuera de las razas jugables, tales son:</li>
+                 <div class="grid-image">
+                    <img src="./personajes/sylvanas..png" alt="">
+                    <img src="./personajes/el profeta.png" alt="">
+                    <img src="./personajes/Kiljaden.png" alt="">
+                    <img src="./personajes/Archimonde.png" alt="">
+                 </div>
+                 <h2 class="about-title">Desafios!</h2>
+                 <div class="desafios">
+                    <a class="botonCss" href="/desafios/quiz.html" style="--clr:#ff1867"><span>Quiz!</span><i></i></a>
+                    <a class="botonCss" href="#" style="--clr:#6eff3e"><span>Puzzle!</span><i></i></a>
+                 </div>
+                  <img class="cat-gif" src="/elementosvisuales/rollingcat.gif" />
+            </div>
+        </section>
+    </main>
+
+    <!-- START FOOTER -->
+    <footer id="contact">
+        <section>
+            <div class="contenedor-iconos-skills">
+            <a href="https://github.com/MarianoMoyano" target="_blank">
+              <img src="https://cx5v8.csb.app/iconos/github-modo-claro.svg" />
+            </a>
+            <a href="https://www.linkedin.com/in/mariano-moyano-/" target="_blank">
+              <img src="https://cx5v8.csb.app/iconos/linkedin.svg" />
+            </a>
+            <a href="mailto:marianolmoyano@gmail.com" target="_blank">
+              <img src="https://cx5v8.csb.app/iconos/gmail.svg" />
+            </a>
+            </div>
+          </section>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./autotype"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./index.js"></script>
+
+</body>
+</html>
+
