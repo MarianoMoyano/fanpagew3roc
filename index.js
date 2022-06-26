@@ -256,29 +256,8 @@ razas.forEach(function(raza){
  })
 })
 
-
-
-  let historia_elfos=document.getElementById ("historia_elfos")
-  historia_elfos.addEventListener("click", mostrarHistoria4);
-  function mostrarHistoria4() {
-      Swal.fire({
-      title: '<div><h1>El arbol del mundo, cuidada por los espiritus del bosque, los elfos y los druidas</h1></div><br><img src="./cuidades/nordrassil.png" alt="">',
-      icon: '',
-      html:
-        'El arbol del mundo, llamado Nordrassil es un recurso usado por los elfos para conseguir y mantener la inmortalidad, cuando la legion volvio para destrir el planeta y con ella, el arbol, los elfos devolvieron su inmortalidad con tal de derrotar a Archimonde, montando una trampa...',
-      showCloseButton: true,
-      showCancelButton: false,
-      focusConfirm: false,
-      confirmButtonText:'OK!',
-      confirmButtonAriaLabel: 'cerrar, Ok!',
-      cancelButtonText:'',
-      cancelButtonAriaLabel:''
-      })
-  }
-
   //boton del modo oscuro
 const modooscuro= document.getElementById('modooscuro')
 modooscuro.addEventListener('click', ()=> {
   document.body.classList.toggle('temaoscuro')
 })
-
